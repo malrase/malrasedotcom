@@ -1,0 +1,8 @@
+header {
+  a {
+    border-bottom: none;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*! ADAPTED
+    Typeplate : Starter Kit
+    URL ........... http://typeplate.com
+    Version ....... 3.0.2
+    Github ........ https://github.com/typeplate/starter-kit
+    Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+    License ....... Creative Commmons Attribution 3.0
+    License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+    */
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-rendering: optimizeLegibility;
+        line-height: 1;
+        margin-top: 0;
+        color: #222;
+      }
+
+      blockquote + figcaption cite {
+        display: block;
+        font-size: inherit;
+        text-align: right;
+      }
+
+      body {
+        word-wrap: break-word;
+      }
+
+      pre code {
+        word-wrap: normal;
+      }
+
+      body {
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        color: #444;
+      }
+
+      h1 {
+        font-size: 2em;
+        /* 2*16 = 32 */
+      }
+
+      h2 {
+        font-size: 1.5em;
+        /* 1.5*16 = 24 */
+      }
+
+      h3 {
+        font-size: 1.17em;
+        /* 1.17*16 = 18.72 */
+      }
+
+      h4 {
+        font-size: 1em;
+        /* 1*16 = 16 */
+      }
+
+      h5 {
+        font-size: 0.83em;
+        /* 0.83*16 = 13.28 */
+      }
+
+      h6 {
+        font-size: 0.75em;
+        /* 0.75*16 = 12 */
+      }
+
+      h1 {
+        margin: 2.42424rem 0 1.454544rem;
+      }
+
+      h2 {
+        margin: 2.0202rem 0 1.21212rem;
+      }
+
+      h3 {
+        margin: 1.61616rem 0 1rem;
+      }
+
+      h4 {
+        margin: 1.21212rem 0 1;
+      }
+
+      h5 {
+        margin: 0.80808rem 0;
+      }
+
+      h6 {
+        margin: 0.70707rem 0;
+      }
+
+      p {
+        margin: auto auto 1.5rem;
+      }
+
+      small {
+        font-size: 65%;
+      }
+
+      input,
+      abbr,
+      acronym,
+      blockquote,
+      code,
+      kbd,
+      q,
+      samp,
+      var {
+        -webkit-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+      }
+
+      pre {
+        white-space: pre;
+      }
+
+      pre code {
+        white-space: -moz-pre-wrap;
+        white-space: pre-wrap;
+      }
+
+      code {
+        white-space: pre;
+        font-family: SF Mono, Consolas, Dejavu Sans Mono, Menlo, monospace;
+      }
+
+      abbr {
+        -webkit-font-variant: small-caps;
+        -moz-font-variant: small-caps;
+        -ms-font-variant: small-caps;
+        font-variant: small-caps;
+        font-weight: 600;
+        text-transform: lowercase;
+        color: gray;
+      }
+
+      abbr[title]:hover {
+        cursor: help;
+      }
+
+      /* FROM http://purecss.io/layouts/side-menu/  adapted to remove pure classes*/
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+        color: #444;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+
+      code,
+      pre {
+        background-color: #f5f5f5;
+        color: #444;
+        border-radius: 2px;
+        text-shadow: 0px 1px 0px white;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      }
+
+      pre code {
+        border: none;
+        box-shadow: none;
+      }
+
+      pre {
+        padding: 0.5em;
+      }
+
+      code {
+        display: inline-block;
+        padding: 0 0.5em;
+        line-height: 1.4;
+        font-size: 0.9em;
+      }
+
+      table {
+        border-spacing: 0;
+        margin-bottom: 1.5rem;
+      }
+
+      table th,
+      table td {
+        padding: 0.3em 0.7em;
+      }
+
+      table th {
+        background-color: #f4f4f4;
+        border-bottom: 2px solid #444;
+      }
+
+      table td {
+        border: 1px solid #f5f5f5;
+      }
+
+      /* Add transition to containers so they can push in and out. */
+
+      #layout,
+      #menu,
+      .menu-link {
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+      }
+
+      /* This is the parent `<div>` that contains the menu and the content area. */
+
+      #layout {
+        position: relative;
+        padding-left: 0;
+      }
+
+      #layout.active #menu {
+        left: 250px;
+        width: 250px;
+      }
+
+      #layout.active .menu-link {
+        left: 250px;
+      }
+
+      /* The content `<div>` is where all your content goes. */
+
+      .content {
+        margin: 50px auto;
+        padding: 0 2em;
+        max-width: 80ex;
+        line-height: 1.6em;
+      }
+
+      /*
+      The `#menu` `<div>` is the parent `<div>` that contains the menu that
+      appears on the left side of the page.
+      */
+
+      #menu {
+        margin-left: -250px;
+        /* "#menu" width */
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+        /* so the menu or its navicon stays above all content */
+        background: #f4f4f4;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        font-size: 0.9em;
+      }
+
+      @media print {
+        #menu,
+        .menu-link {
+          display: none !important;
+        }
+      }
+
+      a,
+      a * {
+        text-decoration: none;
+        color: #2483cc;
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: #2483cc;
+      }
+
+      /* All anchors inside the menu should be styled like this. */
+
+      #menu a {
+        display: block;
+        padding: 0.5em 0.5em;
+      }
+
+      #menu a:first-letter {
+        text-transform: capitalize;
+      }
+
+      #menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 1em 0.5em;
+      }
+
+      #menu ul ul {
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        border-left: 4px solid rgba(255, 255, 255, 0.5);
+      }
+
+      /* Change color of the anchor links on hover/focus. */
+
+      #menu li a:hover,
+      #menu li a:focus {
+        background: rgba(255, 255, 255, 0.4);
+      }
+
+      /* This styles the selected menu item `<li>`. */
+
+      #menu li a.active {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      /* This styles a link within a selected menu item `<li>`. */
+
+      #menu li a.active {
+        color: #222;
+      }
+
+      /* This styles the menu heading. */
+
+      #menu li.heading {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        color: #000;
+      }
+
+      #menu li.heading > * {
+        padding: 0.5em;
+        display: block;
+      }
+
+      #menu li.heading a {
+        color: #0c68af;
+      }
+
+      /* -- Dynamic Button For Responsive Menu -------------------------------------*/
+
+      /*
+      `.menu-link` represents the responsive menu toggle that shows/hides on
+      small screens.
+      */
+
+      .menu-link {
+        position: fixed;
+        display: block;
+        /* show this only on small screens */
+        top: 0;
+        left: 0;
+        /* "#menu width" */
+        font-size: 10px;
+        /* change this value to increase/decrease button size */
+        z-index: 10;
+        width: 2em;
+        height: auto;
+        padding: 1.6em 1.2em;
+        border-radius: 0 2px 2px 0;
+      }
+
+      .menu-link:hover {
+        background: #f4f4f4;
+      }
+
+      .menu-link span {
+        position: relative;
+        display: block;
+      }
+
+      .menu-link span,
+      .menu-link span:before,
+      .menu-link span:after {
+        background-color: #555;
+        width: 100%;
+        height: 0.2em;
+        border-radius: 1em;
+      }
+
+      .menu-link span:before,
+      .menu-link span:after {
+        position: absolute;
+        margin-top: -0.6em;
+        content: " ";
+      }
+
+      .menu-link span:after {
+        margin-top: 0.6em;
+      }
+
+      /* Hides the menu at `48em`, but modify this based on your app's needs. */
+
+      @media (min-width: 48em) {
+        .header,
+        .content {
+          padding-left: 2em;
+          padding-right: 2em;
+        }
+
+        #layout {
+          padding-left: 250px;
+          /* left col width "#menu" */
+          left: 0;
+        }
+        #menu {
+          left: 250px;
+        }
+
+        .menu-link {
+          position: fixed;
+          left: 250px;
+          display: none;
+        }
+
+        #layout.active .menu-link {
+          left: 250px;
+        }
+      }
+
+      @media (max-width: 48em) {
+        /* Only apply this when the window is small. Otherwise, the following case results in extra padding on the left:
+         * Make the window small.
+         * Tap the menu to trigger the active state.
+         * Make the window large again.
+         */
+        #layout.active {
+          position: relative;
+          left: 250px;
+        }
+      }
+
+      /* Heading anchors and permalinks */
+      h1[id],
+      h2[id],
+      h3[id],
+      h4[id],
+      h5[id],
+      h6[id] {
+        position: relative;
+      }
+      .heading-anchor-permalink {
+        /* Position the permalink to the left of the title */
+        position: absolute;
+        right: 100%;
+        /* Add some spacing as padding to not lose the hover */
+        padding-right: 0.6rem;
+        /* Make it only visible on heading hover, see below */
+        opacity: 0;
+      }
+      h1[id]:hover .heading-anchor-permalink,
+      h2[id]:hover .heading-anchor-permalink,
+      h3[id]:hover .heading-anchor-permalink,
+      h4[id]:hover .heading-anchor-permalink,
+      h5[id]:hover .heading-anchor-permalink,
+      h6[id]:hover .heading-anchor-permalink {
+        opacity: 0.5;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div id="layout">
+      <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+      </a>
+      <nav id="menu">
+        <ul>
+<li><a class="" href="2011-04-24-paris-april-2011.html">04 24 paris april 2011</a></li>
+<li><a class="" href="2011-04-24-zurich.html">04 24 zurich</a></li>
+<li><a class="" href="2011-06-28-lyon-part-un.html">06 28 lyon part un</a></li>
+<li><a class="" href="2011-06-30-lyon-part-deux-la-cuisine.html">06 30 lyon part deux la cuisine</a></li>
+<li><a class="" href="2011-07-18-a-few-hours-in-london.html">07 18 a few hours in london</a></li>
+<li><a class="" href="2011-09-25-the-amazing-trip.html">09 25 the amazing trip</a></li>
+<li><a class="" href="2011-11-17-san-francisco-part-one.html">11 17 san francisco part one</a></li>
+<li><a class="" href="2011-12-30-san-francisco-part-two.html">12 30 san francisco part two</a></li>
+<li><a class="" href="2012-02-25-the-artist.html">02 25 the artist</a></li>
+<li><a class="" href="2013-01-05-midsummer-house.html">01 05 midsummer house</a></li>
+<li><a class="" href="2013-03-03-a-b-c.html">03 03 a b c</a></li>
+<li><a class="" href="2013-04-04-d-e-f.html">04 04 d e f</a></li>
+<li><a class="" href="2013-05-21-g-h-i.html">05 21 g h i</a></li>
+<li><a class="" href="2013-05-29-j-k-l.html">05 29 j k l</a></li>
+<li><a class="" href="2013-06-23-m-n-o.html">06 23 m n o</a></li>
+<li><a class="" href="2013-06-29-cocktail-breakfast-of-champions.html">06 29 cocktail breakfast of champions</a></li>
+<li><a class="" href="2013-07-27-cocktail-brass-check.html">07 27 cocktail brass check</a></li>
+<li><a class="" href="2013-08-17-p-q-r.html">08 17 p q r</a></li>
+<li><a class="" href="2013-10-06-s-t-u.html">10 06 s t u</a></li>
+<li><a class="" href="2013-11-05-v-w-x-y-z.html">11 05 v w x y z</a></li>
+<li><a class="" href="2013-12-30-2013-in-review.html">12 30 2013 in review</a></li>
+<li><a class="" href="2014-04-15-upcoming-travel.html">04 15 upcoming travel</a></li>
+<li><a class="" href="2014-04-22-carry-on-packing-for-seven-months.html">04 22 carry on packing for seven months</a></li>
+<li><a class="" href="2014-04-25-the-columbia-room.html">04 25 the columbia room</a></li>
+<li><a class="" href="2014-05-02-philadelphia-revolutions-and-murals.html">05 02 philadelphia revolutions and murals</a></li>
+<li><a class="" href="2014-05-13-linz.html">05 13 linz</a></li>
+<li><a class="" href="2014-05-13-vienna.html">05 13 vienna</a></li>
+<li><a class="" href="2014-05-19-street-art-butte-aux-cailles.html">05 19 street art butte aux cailles</a></li>
+<li><a class="" href="2014-05-24-cocktails-in-paris.html">05 24 cocktails in paris</a></li>
+<li><a class="" href="2014-05-25-early-morning-cdg-flight.html">05 25 early morning cdg flight</a></li>
+<li><a class="" href="2014-05-29-drinking-costa-del-sol.html">05 29 drinking costa del sol</a></li>
+<li><a class="" href="2014-06-04-nightjar.html">06 04 nightjar</a></li>
+<li><a class="" href="2014-06-10-map-of-flights.html">06 10 map of flights</a></li>
+<li><a class="" href="2014-06-20-hemingway-bar-prague.html">06 20 hemingway bar prague</a></li>
+<li><a class="" href="2014-06-26-the-anniversary-question.html">06 26 the anniversary question</a></li>
+<li><a class="" href="2014-07-01-prague.html">07 01 prague</a></li>
+<li><a class="" href="2014-07-07-day-trip-to-kutna-hora.html">07 07 day trip to kutna hora</a></li>
+<li><a class="" href="2014-07-11-absinthe-tasting-prague.html">07 11 absinthe tasting prague</a></li>
+<li><a class="" href="2014-07-15-sansho-prague.html">07 15 sansho prague</a></li>
+<li><a class="" href="2014-07-17-black-angels-bar-prague.html">07 17 black angels bar prague</a></li>
+<li><a class="" href="2014-07-17-bugsys-bar-prague.html">07 17 bugsys bar prague</a></li>
+<li><a class="" href="2014-07-19-cloud-9-prague.html">07 19 cloud 9 prague</a></li>
+<li><a class="" href="2014-07-21-zinc-lounge-prague.html">07 21 zinc lounge prague</a></li>
+<li><a class="" href="2014-07-23-hoffa-prague.html">07 23 hoffa prague</a></li>
+<li><a class="" href="2014-07-23-orange-bar-prague.html">07 23 orange bar prague</a></li>
+<li><a class="" href="2014-07-25-jewish-quarter-prague.html">07 25 jewish quarter prague</a></li>
+<li><a class="" href="2014-07-27-la-degustation.html">07 27 la degustation</a></li>
+<li><a class="" href="2014-07-30-anonymous-bar-prague.html">07 30 anonymous bar prague</a></li>
+<li><a class="" href="2014-08-02-amsterdam.html">08 02 amsterdam</a></li>
+<li><a class="" href="2014-08-04-amsterdam-museums.html">08 04 amsterdam museums</a></li>
+<li><a class="" href="2014-08-09-amsterdam-food.html">08 09 amsterdam food</a></li>
+<li><a class="" href="2014-08-13-berlin-how-do-you-think-it-feels.html">08 13 berlin how do you think it feels</a></li>
+<li><a class="" href="2014-08-17-drinking-around-kreuzberg.html">08 17 drinking around kreuzberg</a></li>
+<li><a class="" href="2014-08-20-markhalle-neun-and-sage.html">08 20 markhalle neun and sage</a></li>
+<li><a class="" href="2014-08-23-stockholm.html">08 23 stockholm</a></li>
+<li><a class="" href="2014-08-29-halfway-ish-thoughts-so-far.html">08 29 halfway ish thoughts so far</a></li>
+<li><a class="" href="2014-09-05-north-paris.html">09 05 north paris</a></li>
+<li><a class="" href="2014-09-10-north-korean-brandy-cocktail.html">09 10 north korean brandy cocktail</a></li>
+<li><a class="" href="2014-09-15-niagara.html">09 15 niagara</a></li>
+<li><a class="" href="2014-09-16-daisho.html">09 16 daisho</a></li>
+<li><a class="" href="2014-09-20-bar-chef.html">09 20 bar chef</a></li>
+<li><a class="" href="2014-09-20-five-myths-five-truths-about-san-francisco.html">09 20 five myths five truths about san francisco</a></li>
+<li><a class="" href="2014-09-25-airbnb-powers-out.html">09 25 airbnb powers out</a></li>
+<li><a class="" href="2014-09-30-some-ninth-avenue-bars.html">09 30 some ninth avenue bars</a></li>
+<li><a class="" href="2014-10-10-sass-conf-2014.html">10 10 sass conf 2014</a></li>
+<li><a class="" href="2014-10-14-worlds-best-bars-2014.html">10 14 worlds best bars 2014</a></li>
+<li><a class="" href="2014-10-21-east-coast-road-trip-part-one.html">10 21 east coast road trip part one</a></li>
+<li><a class="" href="2014-10-28-east-coast-road-trip-part-two.html">10 28 east coast road trip part two</a></li>
+<li><a class="" href="2014-11-03-east-coast-road-trip-part-three.html">11 03 east coast road trip part three</a></li>
+<li><a class="" href="2014-11-13-universal-studios.html">11 13 universal studios</a></li>
+<li><a class="" href="2014-11-18-halloween-horror-nights.html">11 18 halloween horror nights</a></li>
+<li><a class="" href="2014-11-29-the-disney-experience.html">11 29 the disney experience</a></li>
+<li><a class="" href="2014-12-02-the-journey-ends.html">12 02 the journey ends</a></li>
+<li><a class="active" href="2014-12-15-drinking-spots-in-jacksonville.html">12 15 drinking spots in jacksonville</a></li>
+<li><a class="" href="2014-12-29-ai-wei-wei-at-large.html">12 29 ai wei wei at large</a></li>
+<li><a class="" href="2014-12-31-2014-in-review.html">12 31 2014 in review</a></li>
+<li><a class="" href="2015-01-10-travelling-while-lgbt-justified-anxiety.html">01 10 travelling while lgbt justified anxiety</a></li>
+<li><a class="" href="2015-02-04-oscar-pool-2015.html">02 04 oscar pool 2015</a></li>
+<li><a class="" href="2015-05-07-tonys-2015.html">05 07 tonys 2015</a></li>
+<li><a class="" href="2015-06-20-drinking-in-disneyland.html">06 20 drinking in disneyland</a></li>
+<li><a class="" href="2015-08-30-the-savoy-cocktail-book.html">08 30 the savoy cocktail book</a></li>
+<li><a class="" href="2015-08-31-the-lintorn-catlin-guide-to-bars.html">08 31 the lintorn catlin guide to bars</a></li>
+<li><a class="" href="2015-12-31-2015-in-review.html">12 31 2015 in review</a></li>
+<li><a class="" href="2016-02-12-japan-trip-singapore-airlines-in-business-class.html">02 12 japan trip singapore airlines in business class</a></li>
+<li><a class="" href="2016-02-22-japan-trip-tourists-in-tokyo.html">02 22 japan trip tourists in tokyo</a></li>
+<li><a class="" href="2016-04-09-japan-trip-tourists-in-tokyo-part-2.html">04 09 japan trip tourists in tokyo part 2</a></li>
+<li><a class="" href="2016-06-19-game-of-thrones-cocktails.html">06 19 game of thrones cocktails</a></li>
+<li><a class="" href="2016-12-30-2016-in-review.html">12 30 2016 in review</a></li>
+</ul>
+      </nav>
+      <article id="main" class="content">
+        <hr>
+<h2 id="layout%3A-posttitle%3A-%E2%80%9Cdrinking-spots-in-jacksonville%E2%80%9Ddate%3A-2014-12-15-15%3A05%3A17--0500comments%3A-truecategories%3A-cocktails-jacksonville-florida-usa-the-journey-2014">layout: post
+title: “Drinking Spots in Jacksonville”
+date: 2014-12-15 15:05:17 -0500
+comments: true
+categories: cocktails jacksonville florida usa the-journey-2014 <a class="heading-anchor-permalink" href="#layout%3A-posttitle%3A-%E2%80%9Cdrinking-spots-in-jacksonville%E2%80%9Ddate%3A-2014-12-15-15%3A05%3A17--0500comments%3A-truecategories%3A-cocktails-jacksonville-florida-usa-the-journey-2014">#</a></h2>
+<p><a href="http://en.wikipedia.org/wiki/Jacksonville,_Florida">Jacksonville</a>, Hampton’s hometown, is pretty sprawling. As such, it’s difficult to get to different areas of the city without driving. Thankfully, Uber recently arrived so you can drink and get home safely (although with all the recent controversy, I don’t know how comfortable you might be with using Uber).</p>
+<p>The main areas of town we went to were Downtown, San Marco, and Avondale.</p>
+<p>In Downtown, I’d highly recommend <a href="http://www.dosgatosjax.com/">Dos Gatos</a>. The cocktails are great and reasonably-priced.</p>
+<p>San Marco has <a href="http://www.grapeandgrainexchange.com/">Grape and Grain Exchange</a>, with the Parlour in the back. Grape and Grain Exchange is an up-scale package store. They have a great range of liquors there – and we got some to drink at home. However it’s worth grabbing a drink at the bar, too. The atmosphere is a little bright – it is primarily a shop, after all – but the cocktails are good. In the back there’s the Parlour, which is a speakeasy-style bar. The service is pretty slow but they have some decent seasonal cocktails.</p>
+<p>Avondale’s top spot for drinking is <a href="http://www.mojobbq.com/mojo-no-4-urban-bbq-whiskey-bar">Mojo Nº4</a>. They have an extensive range of whiskey cocktails, all of which were tasty. Their Vieux Carré was great.</p>
+<p>If Mojos is packed (and it often is, so get there early), try the <a href="http://mellowmushroom.com/store/avondale-jax">Mellow Mushroom</a> just across the street. Their pizza is pretty good, too, if you’re hungry.</p>
+<p>All in all, there’s a few good spots around town if you’re looking for a decent cocktail. Just make sure you have a taxi number handy to get home!</p>
+
+      </article>
+    </div>
+    <script>
+      // Load contents.json if you need it
+    </script>
+    <script>
+      // FROM http://purecss.io/js/ui.js
+      (function(window, document) {
+        var layout = document.getElementById("layout"),
+          menu = document.getElementById("menu"),
+          menuLink = document.getElementById("menuLink");
+
+        function toggleClass(element, className) {
+          var classes = element.className.split(/\s+/),
+            length = classes.length,
+            i = 0;
+
+          for (; i < length; i++) {
+            if (classes[i] === className) {
+              classes.splice(i, 1);
+              break;
+            }
+          }
+          // The className is not found
+          if (length === classes.length) {
+            classes.push(className);
+          }
+
+          element.className = classes.join(" ");
+        }
+
+        menuLink.onclick = function(e) {
+          var active = "active";
+
+          e.preventDefault();
+          toggleClass(layout, active);
+          toggleClass(menu, active);
+          toggleClass(menuLink, active);
+        };
+      })(this, this.document);
+    </script>
+  </body>
+</html>

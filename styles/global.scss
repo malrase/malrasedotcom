@@ -1,0 +1,43 @@
+@import "variables";
+
+html,
+body {
+  background: $background;
+  font-family: $font-sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+body > * {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  border-bottom: 2px solid $text-color;
+  color: $text-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lighten($text-color, 30%);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header + * {
+  flex: 1;
+}
+
+@import "header";
+@import "footer";
