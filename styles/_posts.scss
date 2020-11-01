@@ -1,0 +1,13 @@
+.posts,
+.city-guides {
+  display: flex;
+
+  h1 {
+    border-right: $border;
+    min-width: 300px;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+}

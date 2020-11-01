@@ -12,5 +12,10 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.27.0"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.2",
+    "marked": "^1.2.2",
+    "raw-loader": "^4.0.2"
   }
 }

@@ -1,25 +1,31 @@
 import Link from "next/link";
-import { Posts2016 } from "./post-information.js";
+import { getAllPosts } from "./post-api";
 import { dateFormatter } from "../../helpers/date-helpers";
 
-export default function PostIndex() {
+export default function PostIndex({ posts }) {
 
   return (
-    <div>
+    <main className="posts">
       <h1>Blog</h1>
-      <h2>2020</h2>
-      
-      <h2>2016</h2>
       <ul>
-        {Posts2016.map(post => {
+        {posts.map( ({slug, title, date }) => {
           return (
-            <li>
-              <Link href={`./posts/2016/${post.href}`}>{post.title}</Link>
-              <div className="byline">{dateFormatter(post.date)}</div>
+            <li key={slug}>
+              <Link href={`./posts/${slug}`}>{title}</Link>
+              <div className="byline">{dateFormatter(date)}</div>
             </li>
           );
         })}
       </ul>
-    </div>
+    </main>
   );
+}
+
+export async function getStaticProps() {
+  const allPosts = await getAllPosts()
+  return {
+    props: {
+      posts: allPosts
+    }
+  }
 }

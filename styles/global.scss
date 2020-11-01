@@ -21,7 +21,7 @@ body > * {
 }
 
 a {
-  border-bottom: 2px solid $text-color;
+  border-bottom: $border;
   color: $text-color;
   text-decoration: none;
 }
@@ -39,5 +39,27 @@ header + * {
   flex: 1;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul, 
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 @import "header";
 @import "footer";
+@import "home";
+@import "posts";
+
+header,
+footer,
+main {
+  padding: 20px;
+}

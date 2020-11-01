@@ -1,6 +1,10 @@
 header {
+  border-bottom: $border;
   a {
     border-bottom: none;
+    padding-right: 40px;
+    text-transform: uppercase;
+    
     &:hover {
       color: $text-color;
     }

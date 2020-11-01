@@ -1,9 +1,12 @@
+import { dateFormatter } from "../../helpers/date-helpers";
 import styles from "./post-layout.module.scss";
 
-export default function PostLayout({ children }) {
+export default function PostLayout({ title, date, content }) {
   return (
-    <div className={styles.post}>
-      {children}
-    </div>
+    <main className={styles.post}>
+      <h1>{title}</h1>
+      <div className="byline">{dateFormatter(date)}</div>
+      <div dangerouslySetInnerHTML={{__html:content}}/>
+    </main>
   )
 }

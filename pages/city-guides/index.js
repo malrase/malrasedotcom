@@ -1,9 +1,8 @@
-import Link from "next/link";
-
 export default function CityGuidesIndex() {
   return (
-    <div>
+    <main className="city-guides">
       <h1>City Guides</h1>
+      <div>
       <p>There are a few cities that I've become familiar with – through frequent travel or living there for a while. Through that, I've either written a number of blog posts or just know a few places I'd recommend. </p>
 
       <p>I decided to collate a lot of this information into city guides. Each guide acts as a collection of any blog posts as well as broad overall tips on the city, where I've enjoyed eating, and, most importantly, <b>good drinking spots</b>.</p>
@@ -12,9 +11,10 @@ export default function CityGuidesIndex() {
       <ul>
         <li>London (coming soon!)</li>
         <li>Paris</li>
-        <li><Link>Prague</Link></li>
-        <li><Link>San Francisco - Dogpatch</Link></li>
+        <li>Prague</li>
+        <li>San Francisco - Dogpatch</li>
       </ul>
-    </div>
+      </div>
+    </main>
   );
 }
