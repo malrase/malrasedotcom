@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
       <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Roboto" />
+          href="https://fonts.googleapis.com/css2?family=Nunito" />
       </Head>
       <Header/>
       <Component {...pageProps}/>

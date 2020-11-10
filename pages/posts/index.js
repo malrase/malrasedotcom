@@ -5,7 +5,7 @@ import { dateFormatter } from "../../helpers/date-helpers";
 export default function PostIndex({ posts }) {
 
   return (
-    <main className="posts">
+    <main className="posts two-column-grid">
       <h1>Blog</h1>
       <ul>
         {posts.map( ({slug, title, date }) => {

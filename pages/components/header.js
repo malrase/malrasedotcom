@@ -2,10 +2,12 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header>
+    <header className="two-column-grid">
       <Link href="/">malrase dot com</Link>
-      <Link href="/posts">Blog</Link> 
-      <Link href="/city-guides">City Guides</Link>
+      <div className="menu">
+        <Link href="/posts">Blog</Link> 
+        <Link href="/city-guides">City Guides</Link>
+      </div>
     </header>
   )
 }
