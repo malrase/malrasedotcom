@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Japan Trip: Tourists in Tokyo (Part 1)"
-date: 2016-02-22 12:58:22 +0900
+date: "2016-02-22T12:58:22+0900"
 comments: true
 categories: japan-trip-2016 tokyo tsukiji meijijingu
 ---

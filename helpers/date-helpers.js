@@ -2,6 +2,10 @@ export function dateFormatter(date) {
   const jsDate = new Date(date);
   const day = jsDate.getDate();
   
+  if (isNaN(day)) {
+    return "";
+  }
+
   const monthNumber = jsDate.getMonth();
   const month = monthMappings[monthNumber];
 

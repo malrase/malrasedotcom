@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Japan Trip: Tourists in Tokyo (Part 2)"
-date: 2016-04-09 09:29:53 -0700
+date: "2016-04-09T09:29:53-0700"
 comments: true
 categories: japan-trip-2016 tokyo
 ---

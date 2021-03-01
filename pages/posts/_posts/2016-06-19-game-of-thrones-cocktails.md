@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Game of Thrones Cocktails"
-date: 2016-06-19 14:14:36 -0700
+date: "2016-06-19T14:14:36"
 comments: true
 categories: 
 ---

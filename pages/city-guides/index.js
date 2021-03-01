@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CityGuidesIndex() {
   return (
     <main className="city-guides two-column-grid">
@@ -10,7 +12,9 @@ export default function CityGuidesIndex() {
       <p>Hopefully this list will grow as I spend more time in various cities.</p>
       <ul>
         <li>London (coming soon!)</li>
-        <li>Paris</li>
+        <li>
+          <Link href={`./city-guides/paris`}>Paris</Link>
+        </li>
         <li>Prague</li>
         <li>San Francisco - Dogpatch</li>
       </ul>

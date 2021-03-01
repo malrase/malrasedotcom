@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Japan Trip: Singapore Airlines SQ11 in Business Class"
-date: 2016-02-12 15:58:51 +0900
+date: "2016-02-12T15:58:51+0900"
 comments: true
 categories: japan-trip-2016 lax nrt sfo singapore-airlines business
 ---

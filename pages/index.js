@@ -10,8 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="home">
-        Michael Lintorn-Catlin is an engineering manager at Rent the Runway, where he enjoys building close and high-functioning teams. When he's not working, he likes making cocktails, watching horror movies, and reading. 
-        He currently lives in New York City with his husband, <Link href="https://hcatlin.com">Hampton</Link>. 
+        Michael Lintorn-Catlin loves discovering hidden parts of the world that other people haven’t noticed. He likes <Link href="https://instagram.com/malrase">making cocktails</Link>, <Link href="https://letterboxd.com/malrase/">watching horror movies</Link>, and <Link href="https://www.goodreads.com/user/show/6233721-michael-lintorn-catlin">reading</Link>. By day, he builds teams at Rent the Runway. By night, he visits bars (when there's not a global pandemic going on). He lives in New York City with his husband, <Link href="https://hcatlin.com">Hampton</Link>. 
       </main>
     </>
   )
