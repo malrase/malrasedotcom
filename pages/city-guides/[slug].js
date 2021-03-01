@@ -1,5 +1,5 @@
 import CityGuideLayout from "../components/city-guide-layout";
-import { getCityGuideBySlug, getAllCityGuides } from "./city-guide-api";
+import { getCityGuideBySlug, getAllCityGuides } from "../../helpers/city-guide-api";
 
 export default function CityGuide(props) {
   return (

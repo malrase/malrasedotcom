@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAllPosts } from "./post-api";
+import { getAllPosts } from "../../helpers/post-api";
 import { dateFormatter } from "../../helpers/date-helpers";
 
 export default function PostIndex({ posts }) {
