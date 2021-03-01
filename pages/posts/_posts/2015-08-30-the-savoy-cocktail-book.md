@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Savoy Cocktail Book"
-date: 2015-08-30 12:47:32 -0700
+date: 2015-08-30T12:47:32-0700
 comments: true
 categories: cocktails gin vermouth savoy
 ---

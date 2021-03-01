@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Travelling while LGBT: A Justified Anxiety?"
-date: 2015-01-10 16:34:01 -0800
+date: 2015-01-10T16:34:01-0800
 comments: true
 categories: travel lgbt
 ---

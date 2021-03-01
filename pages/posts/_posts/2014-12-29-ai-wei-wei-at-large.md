@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ai Weiwei @Large"
-date: 2014-12-29 09:59:26 -0800
+date: 2014-12-29T09:59:26-0800
 comments: true
 categories: san-francisco art alcatraz
 ---

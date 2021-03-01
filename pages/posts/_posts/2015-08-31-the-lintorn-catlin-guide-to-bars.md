@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Lintorn-Catlin Guide to Bars"
-date: 2015-08-31 13:20:50 -0700
+date: 2015-08-31T13:20:50-0700
 comments: true
 categories: cocktails
 published: false

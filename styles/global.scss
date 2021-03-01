@@ -5,6 +5,7 @@ body {
   background: $background;
   font-family: $font-sans-serif;
   font-size: 18px;
+  height: 100%;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -13,7 +14,7 @@ body {
 body #__next {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
 }
 
 * {
@@ -90,6 +91,12 @@ main {
     display: grid;
     grid-template-columns: 250px auto;
 
+    // E.g. the post title
+    > *:first-child {
+      padding-right: 20px;
+    }
+
+    // E.g. the post itself
     > *:last-child {
       padding-left: 20px;
     }

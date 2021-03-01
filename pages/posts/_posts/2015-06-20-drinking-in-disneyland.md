@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drinking at the Disneyland Resort"
-date: 2015-06-20 14:00:29 -0700
+date: 2015-06-20T14:00:29-0700
 comments: true
 categories: disney disneyland theme-parks
 ---
