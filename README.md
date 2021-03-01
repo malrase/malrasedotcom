@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+The site for malrase.com.
+
+To get started, run `npx next`.
