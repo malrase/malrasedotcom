@@ -23,35 +23,46 @@ body #__next {
 
 a {
   color: $text-color;
-  text-decoration: none;
-  position: relative;
-  &:before, &:after {
-    content: '';
-    position: absolute;
-    transition: transform .5s ease;
+}
+
+@mixin for-phone-only {
+  a {
+    
   }
-  &:before {
-    background: $text-color;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-  }
-  
-  &:after {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: $red;
-    transform: scaleX(0);
-  }
-  
-  &:hover:after {
-    transform: scaleX(1);
-  }
-  &:focus {
-    outline: 5px auto $red;
+}
+
+@mixin for-desktop-only {
+  a {
+    text-decoration: none;
+    position: relative;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      transition: transform .5s ease;
+    }
+    &:before {
+      background: $text-color;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+    }
+    
+    &:after {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: $red;
+      transform: scaleX(0);
+    }
+    
+    &:hover:after {
+      transform: scaleX(1);
+    }
+    &:focus {
+      outline: 5px auto $red;
+    }
   }
 }
 

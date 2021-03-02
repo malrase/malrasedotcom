@@ -10,3 +10,11 @@ $text-color: #000;
 
 
 $border: 2px solid $text-color;
+
+@mixin for-phone-only {
+  @media (max-width: 499px) { @content; }
+}
+
+@mixin for-desktop-only {
+  @media (min-width: 500px) { @content; }
+}

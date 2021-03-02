@@ -1,9 +1,4 @@
-.posts,
-.city-guides {
-  h1 {
-    border-right: $border;
-  }
-}
+
 
 .posts {
   ul {
@@ -13,5 +8,20 @@
   li {
     list-style: none;
     margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .posts,
+  .city-guides {
+    h1 {
+      border-right: $border;
+    }
+  }
+
+  .posts {
+    ul {
+      padding-left: 0;
+    }
   }
 }
