@@ -25,13 +25,13 @@ a {
   color: $text-color;
 }
 
-@mixin for-phone-only {
+@include for-phone-only {
   a {
-    
+    text-decoration-color: $red;
   }
 }
 
-@mixin for-desktop-only {
+@include for-desktop-only {
   a {
     text-decoration: none;
     position: relative;
@@ -86,18 +86,19 @@ p {
   margin-top: 0;
 }
 
-@import "header";
-@import "footer";
-@import "home";
-@import "posts";
-
 header,
 footer,
 main {
   padding: 20px;
 }
 
-@media only screen and (min-width: 400px) {
+@import "header";
+@import "footer";
+@import "home";
+@import "posts";
+
+
+@include for-desktop-only {
   .two-column-grid {
     display: grid;
     grid-template-columns: 250px auto;

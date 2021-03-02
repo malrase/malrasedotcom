@@ -11,14 +11,16 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@include for-desktop-only {
   .posts,
   .city-guides {
     h1 {
       border-right: $border;
     }
   }
+}
 
+@include for-phone-only {
   .posts {
     ul {
       padding-left: 0;

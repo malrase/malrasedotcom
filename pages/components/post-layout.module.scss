@@ -1,8 +1,10 @@
-@import "styles/_variables";
+@import "styles/variables";
 
 .post {
-  h1 {
-    border-right: $border;
+  @include for-desktop-only {
+    h1 {
+      border-right: $border;
+    }
   }
 
   .byline {
