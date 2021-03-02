@@ -1,5 +1,5 @@
 import PostLayout from "../components/post-layout";
-import { getPostBySlug, getAllPosts } from "./post-api";
+import { getPostBySlug, getAllPosts } from "../../helpers/post-api";
 
 export default function Post(props) {
   return (
