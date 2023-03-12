@@ -5,6 +5,7 @@ export default function Header() {
     <header className="two-column-grid">
       <Link href="/">malrase dot com</Link>
       <div className="menu">
+        <Link href="/currently-reading">Reading</Link> 
         <Link href="/posts">Blog</Link> 
         <Link href="/city-guides">City Guides</Link>
       </div>
