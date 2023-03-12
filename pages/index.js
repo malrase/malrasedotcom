@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="home">
-        Michael Lintorn-Catlin loves discovering hidden parts of the world that other people haven’t noticed. He likes <Link href="https://instagram.com/malrase">making cocktails</Link>, <Link href="https://letterboxd.com/malrase/">watching horror movies</Link>, and <Link href="https://www.goodreads.com/user/show/6233721-michael-lintorn-catlin">reading</Link>. By day, he works on the Appointments product at Square. By night, he visits bars. He lives in New York City with his husband, Hampton. 
+        Michael Lintorn-Catlin loves exploring. He likes <Link href="https://instagram.com/malrase">making cocktails</Link>, <Link href="https://letterboxd.com/malrase/">watching horror movies</Link>, and <Link href="https://www.goodreads.com/user/show/6233721-michael-lintorn-catlin">reading</Link>. By day, he works on the Appointments product at Square. By night, he visits bars. He lives in New York City with his husband, Hampton. 
       </main>
     </>
   )
