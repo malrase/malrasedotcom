@@ -12,7 +12,7 @@ export default function CurrentlyReadingIndex() {
       </ul>
       <p>Here are some books I've enjoyed recently:</p>
       <ul>
-        <li></li>
+        <li>Cloud Cuckoo Land - Anthony Doerr</li>
       </ul>
       </div>
     </main>
