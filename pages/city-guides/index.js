@@ -12,8 +12,8 @@ export default function CityGuidesIndex() {
       <p>Hopefully this list will grow as I spend more time in various cities.</p>
       <ul>
         <li><Link href={`./city-guides/london`}>London</Link></li>
-        <li><Link href={`./city-guides/new-orleans`}>New Orleans</Link</li>
-        <li><Link href={`./city-guides/new-york`}>New York</Link</li>
+        <li><Link href={`./city-guides/new-orleans`}>New Orleans</Link></li>
+        <li><Link href={`./city-guides/new-york`}>New York</Link></li>
         <li><Link href={`./city-guides/london`}>Paris</Link></li>
         <li><Link href={`./city-guides/prague`}>Prague</Link></li>
       </ul>
