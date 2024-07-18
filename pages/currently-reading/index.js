@@ -20,7 +20,7 @@ export default function CurrentlyReadingIndex() {
         </ul>
         <li>Non-Fiction</li>
         <ul>
-          <li><a href='https://www.goodreads.com/book/show/59808605-strangers-to-ourselves'>Strangers to Ourselvesd</a> - Rachel Aviv</li>
+          <li><a href='https://www.goodreads.com/book/show/59808605-strangers-to-ourselves'>Strangers to Ourselves</a> - Rachel Aviv</li>
           <li><a href='https://www.goodreads.com/book/show/75665931-the-maniac'>The MANIAC</a> - Benjamín Labatut</li>
           <li><a href='https://www.goodreads.com/book/show/65215321-blackouts'>Blackouts</a> - Justin Torres</li>
       </ul>
