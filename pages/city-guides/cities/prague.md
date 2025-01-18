@@ -14,6 +14,8 @@ footer: true
 
 [Prague](http://en.wikipedia.org/wiki/Prague), the capital of the Czech Republic, is difficult not to love. Culture abounds, with concerts from baroque to techno happening all the time. The people are friendly, and are just the right mix of easy-going yet purposeful. On top of all this, it's a beautiful city: Gothic and Renaissance buildings are everywhere, and it's a treat just to wander the side streets.
 
+Last updated: 2014
+
 - [Where to Stay](#Where-to-Stay)
 - [Things to Do](#Things-to-Do)
 - [Drink](#Drink)
