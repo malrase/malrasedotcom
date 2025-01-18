@@ -14,7 +14,7 @@ export default function CityGuidesIndex() {
         <li><Link href={`./city-guides/london`}>London</Link></li>
         <li><Link href={`./city-guides/new-orleans`}>New Orleans</Link></li>
         <li><Link href={`./city-guides/new-york`}>New York</Link></li>
-        <li><Link href={`./city-guides/london`}>Paris</Link></li>
+        <li><Link href={`./city-guides/paris`}>Paris</Link></li>
         <li><Link href={`./city-guides/prague`}>Prague</Link></li>
       </ul>
       </div>
