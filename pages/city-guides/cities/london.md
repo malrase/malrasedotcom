@@ -6,9 +6,9 @@ sharing: true
 footer: true
 ---
 
-Coming when I get around to it.
+Last updated: Jan 2025
 
-<!-- - [Things to Do](#Things-to-Do)
+- [Things to Do](#Things-to-Do)
 - [Bars](#Bars)
 - [Restaurants](#Restaurants)
 
@@ -18,7 +18,15 @@ Coming when I get around to it.
 
 <a name="Bars"></a>
 ### Bars
+#### Cocktails
+* 🔶🟥🔵
+* Lyan-Ess
+* Coupette
+* Equal Parts
+* The Royal Cocktail Exchange
 
 <a name="Restaurants"></a>
 ### Restaurants
- -->
+* Brat x Climpson's Arch
+* Bubala Soho
+* Coal Office 
