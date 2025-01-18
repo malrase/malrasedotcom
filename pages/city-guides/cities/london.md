@@ -28,5 +28,6 @@ Last updated: Jan 2025
 <a name="Restaurants"></a>
 ### Restaurants
 * Brat x Climpson's Arch
+  * Or any of the restaurants in the Super 8 group: Kiln, Mountain, Smoking Goat, BRAT
 * Bubala Soho
 * Coal Office 
