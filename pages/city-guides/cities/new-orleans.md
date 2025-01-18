@@ -10,7 +10,7 @@ footer: true
 - [Bars](#Bars)
 - [Restaurants](#Restaurants)
 
-
+Last updated: Jan, 2025
 
 <a name="Things-to-Do"></a>
 ### Things to Do
