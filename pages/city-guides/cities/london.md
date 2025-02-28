@@ -15,12 +15,13 @@ Last updated: Jan 2025
 
 <a name="Things-to-Do"></a>
 ### Things to Do
+* Tate Modern
 
 <a name="Bars"></a>
 ### Bars
 #### Cocktails
 * 🔶🟥🔵
-* Lyan-Ess
+* Lyaness
 * Coupette
 * Equal Parts
 * The Royal Cocktail Exchange
