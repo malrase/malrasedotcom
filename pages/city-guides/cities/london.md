@@ -6,7 +6,7 @@ sharing: true
 footer: true
 ---
 
-Last updated: Jan 2025
+Last updated: Feb 2025
 
 - [Things to Do](#Things-to-Do)
 - [Bars](#Bars)
