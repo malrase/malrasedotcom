@@ -39,25 +39,22 @@ Last updated: Jan 2025
 
 <a name="Restaurants"></a>
 ### Restaurants
-#### High-End, Classic
+#### Formal, Southern
 * Arnaud's
 * Brennan's
 * GW Fins
 * Galatoire's
 
-#### High-End, New
-* Dakar
-* Saint-Germain
-* Compère Lapin
-
-#### Casual, Classic
+#### Contemporary, Southern
 * Sylvain
 * Jewel of the South
 * Pigeon and the Whale
 * Peche
 
-#### Casual, New
-* BABs
+#### Contemporary
+* Dakar
+* Saint-Germain
+* Compère Lapin
 * N7
 * Acamaya
 * LUFU
