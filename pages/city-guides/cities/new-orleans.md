@@ -8,7 +8,7 @@ footer: true
 
 New Orleans is our second home. If you're staying with us, we'll probably take you to one (or more) of the places on this list.
 
-Last updated: Jan 2025
+Last updated: July 2025
 
 - [Things to Do](#Things-to-Do)
 - [Bars](#Bars)

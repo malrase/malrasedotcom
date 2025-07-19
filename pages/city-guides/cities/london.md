@@ -6,7 +6,7 @@ sharing: true
 footer: true
 ---
 
-Last updated: Feb 2025
+Last updated: July 2025
 
 - [Things to Do](#Things-to-Do)
 - [Bars](#Bars)
@@ -25,10 +25,14 @@ Last updated: Feb 2025
 * Coupette
 * Equal Parts
 * The Royal Cocktail Exchange
+* Dram
+* Scarfes Bar
 
 <a name="Restaurants"></a>
 ### Restaurants
 * Brat x Climpson's Arch
   * Or any of the restaurants in the Super 8 group: Kiln, Mountain, Smoking Goat, BRAT
 * Bubala Soho
+* Planque
 * Coal Office 
+* Brother Marcus (there are a few locations)
