@@ -14,34 +14,34 @@ export default function BlueHouseIndex() {
       <h2>The House</h2>
       <ul>
         <li>
-          AC: There are two controls, upstairs and downstairs. They're set in Celcius! 
+          <b>AC</b>: There are two controls, upstairs and downstairs. They're set in Celcius! 
           26ºC is a nice warm daytime temperature, and 20ºC is a nice cool sleeping
           temperature.
         </li>
-        <li>Alarm: For the actual security system, we don't use it when we're in town.
+        <li><b>Alarm</b>: For the actual security system, we don't use it when we're in town.
           If you're interested in having a full security system, let us know and we
           can provide instructions. The internal cameras will be disabled during 
           your stay, however the external cameras will still be active for everyone'security.
         </li>
-        <li>Coffee machine: Filters and coffee are in the pantry.</li>
+        <li><b>Coffee machine</b>: Filters and coffee are in the pantry.</li>
         <li>
-          Front door: We will have messaged you a code to access the house. To lock
+          <b>Front door</b>: We will have messaged you a code to access the house. To lock
           and unlock the door, enter the code and press the checkbox.
         </li>
         <li>
-          Neighbours: Parties are not allowed - please be respectful of the neighbours.
+          <b>Neighbours</b>: Parties are not allowed - please be respectful of the neighbours.
         </li>
         <li>
-          Safety: Before going to bed and when you leave, make sure to lock the doors.
+          <b>Safety</b>: Before going to bed and when you leave, make sure to lock the doors.
           Packages left on the stoop are at risk of being stolen, so make sure to 
           bring them inside!
         </li>
         <li>
-          Trash: Trash is collected on Friday morning. Please take the trash out
+          <b>Trash</b>: Trash is collected on Friday morning. Please take the trash out
           on Thursday night.
         </li>
         <li>
-          Washer/dryer: The washer has its detergent pre-filled in the drawer on 
+          <b>Washer/dryer</b>: The washer has its detergent pre-filled in the drawer on 
           the middle left. It will auto-dispense the detergent when you start the
           cycle.
         </li>
