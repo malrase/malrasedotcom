@@ -141,8 +141,7 @@ export default function BlueHouseIndex() {
       <h2>Other Recommendations</h2>
       <p>
         The above are all within 5-10 minutes walking distance. There are, of course,
-        many other great spots in the city. You can find more recommendations 
-        <Link href="/city-guides/new-orleans">on the New Orleans page</Link>. 
+        many other great spots in the city. You can find more recommendations on <Link href="/city-guides/new-orleans">the New Orleans page</Link>. 
       </p>
       </div>
     </main>
