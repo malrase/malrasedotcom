@@ -51,12 +51,12 @@ export default function BlueHouseIndex() {
       <p>
         The geography of New Orleans is tied to the Mississippi. The city snakes along
         the bend of the river, which lends itself to a unique way of describing locations.
-        We don't tend to use words like "east" or "west" - instead we use the Mississippi
+        We don't tend to use words like "east" or "west"—instead we use the Mississippi
         as a reference point.
       </p>
       <p>
         We use the terms "upriver" and "downriver" for moving along the river. We
-        use "lakeside" and "riverside" for closer to the Mississippi or Lake Pontchartrain.
+        use "riverside" and "lakeside" for closer to the Mississippi or Lake Pontchartrain.
         If you step outside the front door, you're facing downriver. Your left is
         lakeside, and to your right is riverside.
       </p>
@@ -69,11 +69,10 @@ export default function BlueHouseIndex() {
         through the rest of the Marigny, and then you'll be in the French Quarter.
       </p>
 
-      <p>If you're walking into the French Quarter, we recommend walking along
-        Royal St, Bourbon, or Dauphine.
-      </p>
-
-      <p>Some local spots that we enjoy:
+      <p>
+        If you're walking into the French Quarter, we recommend walking along
+        Royal St, Bourbon, or Dauphine. Some local spots that we enjoy (all of these
+        should be within 10 minutes walking distance):
         <ul>
           <li>
             Coffee shops:
@@ -94,10 +93,10 @@ export default function BlueHouseIndex() {
           </li>
           <ul>
             <li>
-              <a href='https://maps.app.goo.gl/WyA3jExMoR4zKXy89'>Acamaya</a> - Mexican, was on the <a href='https://www.nytimes.com/interactive/2024/dining/best-restaurants-america.html#acamaya'>NYTimes list of best restaurants in America for 2024</a>.
+              <a href='https://maps.app.goo.gl/WyA3jExMoR4zKXy89'>Acamaya</a> - Mexican, was on the <a href='https://www.nytimes.com/interactive/2024/dining/best-restaurants-america.html#acamaya'>NYTimes list of best restaurants in America for 2024</a>
             </li>
             <li>
-              <a href='https://maps.app.goo.gl/hZ2Qf4wGPbDHoJK59'>N7</a> - French-Japanese fusion in a beautiful outdoor setting.
+              <a href='https://maps.app.goo.gl/hZ2Qf4wGPbDHoJK59'>N7</a> - French-Japanese fusion in a beautiful outdoor setting
             </li>
             <li>
               <a href='https://maps.app.goo.gl/QbBBTZWgn9CKjjXG9'>St Roch Market</a> - food hall with a number of local vendors
