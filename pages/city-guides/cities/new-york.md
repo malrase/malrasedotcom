@@ -20,7 +20,6 @@ Last Updated: Jan 2025
 <a name="Bars"></a>
 ### Bars
 #### Cocktails
-* Another Country (Union Square)
 * Death & Co
 * Paradise Lost
 * Bar Contra

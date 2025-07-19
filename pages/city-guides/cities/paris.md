@@ -6,13 +6,7 @@ sharing: true
 footer: true
 ---
 
-<div class="city-view">
-  <a href="{{ root_url }}/images/paris/so-paris.jpg">
-    <img src="/images/paris/so-paris.jpg">
-  </a>
-</div>
-
-[Paris](https://en.wikipedia.org/wiki/Paris) is one of my favourites cities. No matter how stressed I am, sitting in a café with a glass of wine will immediately calm me down.
+[Paris](https://en.wikipedia.org/wiki/Paris) is one of my favourite cities. No matter how stressed I am, sitting in a café with a glass of wine will immediately calm me down.
 
 - [Where to Stay](#Where-to-Stay)
 - [Things to Do](#Things-to-Do)
@@ -32,6 +26,7 @@ footer: true
 
 <a name="Drink"></a>
 ### Drink
+
 
 <a name="Eat"></a>
 ### Eat
