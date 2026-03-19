@@ -19,19 +19,27 @@ export default function RedHouseIndex() {
           and the front door.
         </li>
         <li>
-          <b>AC</b>: The units are by the windows. They're set in Celcius!
+          <b>AC</b>: The units are by the windows. They're set in Celcius! The
+          bedroom cools itself in the evening, the living room does not. We can
+          change any settings, just let us know.
         </li>
         <li>
-          <b>Shower</b>: Sometimes the shower backs up when you first turn it on—it's
+          <b>Shower</b>: Sometimes the shower backs up when you first turn it on - it's
           just the drain has a weird seal. Use the metal doohickey on the shelf to
-          open the drain cover, then replace it—it'll start draining normally.
+          open the drain cover, then replace it - it'll start draining normally.
         </li>
         <li>
           <b>Trash</b>: Trash is to the right of the elevator. Separate out recycling
-          into the blue bin, and trash goes in the chute.
+          into the blue bin, and trash goes in the chute. Composting is in the
+          basement - the brown bin to the right as you leave the elevator. Green
+          compost bags are under the sink.
         </li>
         <li>
-          <b>Washer/Dryer</b>: Detergent is on the left of the unit.
+          <b>Washer/Dryer</b>: Detergent is on the left of the unit. The washer
+          sometimes clicks when it's about halfway through its cycle - it's
+          something to do with the lid locking after the pre-soak. If it sounds
+          like the lid isn't locking, just push the lid down a touch and hit the
+          start button again, it should work.
         </li>
       </ul>
 
