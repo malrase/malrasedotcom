@@ -34,31 +34,14 @@ a {
 @include for-desktop-only {
   a {
     text-decoration: none;
-    position: relative;
-    &:before, &:after {
-      content: '';
-      position: absolute;
-      transition: transform .5s ease;
-    }
-    &:before {
-      background: $text-color;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-    }
-    
-    &:after {
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background: $red;
-      transform: scaleX(0);
-    }
-    
-    &:hover:after {
-      transform: scaleX(1);
+    background-image: linear-gradient($red, $red), linear-gradient($text-color, $text-color);
+    background-size: 0% 2px, 100% 2px;
+    background-position: 0% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease;
+
+    &:hover {
+      background-size: 100% 2px, 100% 2px;
     }
     &:focus {
       outline: 5px auto $red;

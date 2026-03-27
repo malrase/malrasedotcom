@@ -5,9 +5,9 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     
-    &:before,
-    &:after {
-      background: none;
+    background-image: none;
+    &:hover {
+      background-image: none;
     }
   }
 }
