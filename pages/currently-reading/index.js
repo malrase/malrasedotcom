@@ -7,15 +7,16 @@ export default function CurrentlyReadingIndex() {
       <div className="content">
       <p>Here's what I'm currently reading:</p>
       <ul>
-        <li><a href='https://app.thestorygraph.com/books/470474cb-e378-497f-aef7-70854c395526'>Anna Karenina</a> - Leo Tolstoy</li>
+        <li><a href='https://app.thestorygraph.com/books/2fc27184-b0f7-4d65-8ee8-28df25ae8caf'>Vigil</a> - George Saunders</li>
       </ul>
       <p>Here are some books I've enjoyed recently - check out <a href="https://app.thestorygraph.com/profile/malrase">my profile on Storygraph</a> for a full list. </p>
       <ul>
         <li>Fiction</li>
         <ul>
+          <li><a href='https://app.thestorygraph.com/books/470474cb-e378-497f-aef7-70854c395526'>Anna Karenina</a> - Leo Tolstoy</li>
           <li><a href='https://app.thestorygraph.com/books/daef0f5c-332e-4f1d-b8a9-f9b45b8bebba'>The Director</a> - Daniel Kehlmann</li>
           <li><a href='https://app.thestorygraph.com/books/cc7dbd7b-1ae4-464f-996e-634c979dabeb'>What We Can Know</a> - Ian McEwan</li>
-          <li><a href='https://app.thestorygraph.com/books/527858bf-900d-45f4-b3eb-c158b7602411'>On the Calculation of Volume I</a> - Solvej Balle</li>
+          <li><a href='https://app.thestorygraph.com/books/527858bf-900d-45f4-b3eb-c158b7602411'>On the Calculation of Volume I</a>, <a href='https://app.thestorygraph.com/books/e64f05bd-4a57-4d1a-9311-2ae6be4989b2'>On the Calculation of Volume II</a> - Solvej Balle</li>
         </ul>
         <li>Non-Fiction</li>
         <ul>
