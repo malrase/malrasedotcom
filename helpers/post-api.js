@@ -1,29 +1,32 @@
+import fs from 'fs'
+import path from 'path'
 import matter from 'gray-matter'
-import marked from 'marked'
+import { marked } from 'marked'
+
+const postsDirectory = path.join(process.cwd(), 'pages/posts/_posts')
 
 export async function getAllPosts() {
-  const context = require.context('../pages/posts/_posts', false, /\.md$/)
-  const posts = []
-  for(const key of context.keys()){
-    console.log(key)
-    const post = key.slice(2);
-    const content = await import(`../pages/posts/_posts/${post}`);
-    const meta = matter(content.default)
-    posts.push({
-      slug: post.replace('.md',''),
+  const filenames = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.md'))
+  const posts = filenames.map(filename => {
+    const filePath = path.join(postsDirectory, filename)
+    const fileContent = fs.readFileSync(filePath, 'utf8')
+    const meta = matter(fileContent)
+    return {
+      slug: filename.replace('.md', ''),
       title: meta.data.title,
       date: meta.data.date
-    })
-  }
-  return posts.reverse();
+    }
+  })
+  return posts.reverse()
 }
 
 export async function getPostBySlug(slug) {
-  const fileContent = await import(`../pages/posts/_posts/${slug}.md`)
-  const meta = matter(fileContent.default)
-  const content = marked(meta.content)    
+  const filePath = path.join(postsDirectory, `${slug}.md`)
+  const fileContent = fs.readFileSync(filePath, 'utf8')
+  const meta = matter(fileContent)
+  const content = marked(meta.content)
   return {
-    title: meta.data.title, 
+    title: meta.data.title,
     date: meta.data.date,
     content: content
   }
