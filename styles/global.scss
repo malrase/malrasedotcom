@@ -1,4 +1,9 @@
-@import "variables";
+@use "variables" as *;
+@use "header";
+@use "footer";
+@use "home";
+@use "posts";
+@use "houses";
 
 html,
 body {
@@ -78,13 +83,6 @@ main {
 b {
   font-weight: 800;
 }
-
-@import "header";
-@import "footer";
-@import "home";
-@import "posts";
-@import "houses";
-
 
 @include for-desktop-only {
   .two-column-grid {
