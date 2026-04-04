@@ -15,13 +15,16 @@ export default function RedHouseIndex() {
       <h2>The Apartment</h2>
       <ul>
         <li>
+          <b>AC</b>: The units are by the windows. They're set in Celcius! The
+          bedroom cools itself in the evening, the living room does not. We can
+          change any settings, just let us know.
+        </li>
+        <li>
           <b>Access</b>: We will have messaged you a code for the building entrance
           and the front door.
         </li>
         <li>
-          <b>AC</b>: The units are by the windows. They're set in Celcius! The
-          bedroom cools itself in the evening, the living room does not. We can
-          change any settings, just let us know.
+          <b>Internet</b>: We will give you the WiFi password when you arrive.
         </li>
         <li>
           <b>Shower</b>: Sometimes the shower backs up when you first turn it on - it's

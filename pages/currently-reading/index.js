@@ -7,6 +7,7 @@ export default function CurrentlyReadingIndex() {
       <div className="content">
       <p>Here's what I'm currently reading:</p>
       <ul>
+        <li><a href='https://app.thestorygraph.com/books/82cda351-2e3f-48d3-8308-b2cd3ffdd855'>Butter</a> - Asako Yuzuki</li>
         <li><a href='https://app.thestorygraph.com/books/2fc27184-b0f7-4d65-8ee8-28df25ae8caf'>Vigil</a> - George Saunders</li>
       </ul>
       <p>Here are some books I've enjoyed recently - check out <a href="https://app.thestorygraph.com/profile/malrase">my profile on Storygraph</a> for a full list. </p>
