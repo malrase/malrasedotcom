@@ -1,7 +1,12 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function BlueHouseIndex() {
   return (
+    <>
+    <Head>
+      <title>Blue House | malrase dot com</title>
+    </Head>
     <main className="blue-house two-column-grid">
       <h1>Blue House</h1>
       <div className="content">
@@ -145,5 +150,6 @@ export default function BlueHouseIndex() {
       </p>
       </div>
     </main>
+    </>
   );
 }

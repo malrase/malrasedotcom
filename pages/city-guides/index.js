@@ -1,7 +1,12 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function CityGuidesIndex() {
   return (
+    <>
+    <Head>
+      <title>City Guides | malrase dot com</title>
+    </Head>
     <main className="city-guides two-column-grid">
       <h1>City Guides</h1>
       <div className="content">
@@ -19,5 +24,6 @@ export default function CityGuidesIndex() {
       </ul>
       </div>
     </main>
+    </>
   );
 }

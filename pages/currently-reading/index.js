@@ -1,7 +1,12 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function CurrentlyReadingIndex() {
   return (
+    <>
+    <Head>
+      <title>Currently Reading | malrase dot com</title>
+    </Head>
     <main className="currently-reading two-column-grid">
       <h1>Currently Reading</h1>
       <div className="content">
@@ -27,5 +32,6 @@ export default function CurrentlyReadingIndex() {
       </ul>
       </div>
     </main>
+    </>
   );
 }

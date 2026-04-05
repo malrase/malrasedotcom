@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { getAllPosts } from "../../helpers/post-api";
 import { dateFormatter } from "../../helpers/date-helpers";
@@ -5,6 +6,10 @@ import { dateFormatter } from "../../helpers/date-helpers";
 export default function PostIndex({ posts }) {
 
   return (
+    <>
+    <Head>
+      <title>Posts | malrase dot com</title>
+    </Head>
     <main className="posts two-column-grid">
       <h1>Blog</h1>
       <ul>
@@ -18,6 +23,7 @@ export default function PostIndex({ posts }) {
         })}
       </ul>
     </main>
+    </>
   );
 }
 
